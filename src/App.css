@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+}
+
+.align{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.initial{
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  width: 50%;
+  border: 3px solid rgb(15, 15, 15);
+}
+
+h1{
+ 
+  text-align: center;
+  background-color: rgba(126, 124, 116, 0.295);
+  margin: 0;
+  padding: 20px;
+}
+
+.btn-style {
+  margin: 20px;
+  padding: 10px 15px;
+  background-color: buttonColor;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  color: rgb(155, 56, 56)
+}
+
